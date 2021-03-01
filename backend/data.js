@@ -2,7 +2,7 @@ import bcrypt from "bcryptjs";
 const data = {
   users: [
     {
-      name: "Tulga",
+      name: "Tulga bna",
       email: "admin@example.com",
       password: bcrypt.hashSync("1234", 8),
       isAdmin: true,
@@ -16,8 +16,7 @@ const data = {
   ],
   products: [
     {
-      _id: "1",
-      name: "ZARA",
+      name: "ZARA bishee",
       category: "Үнэртэй ус",
       image: "/images/d1.jpg",
       price: 120,
@@ -28,7 +27,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "2",
       name: "DO SON",
       category: "Үнэртэй ус",
       image: "/images/d2.jpg",
@@ -40,7 +38,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "3",
       name: "BON PARFUMER",
       category: "Үнэртэй ус",
       image: "/images/d3.jpg",
@@ -52,7 +49,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "4",
       name: "CHANEL №5",
       category: "Сайхан үнэртэй ус",
       image: "/images/d4.jpg",
@@ -64,7 +60,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "5",
       name: "CHANEL",
       category: "Сайхан үнэртэй ус",
       image: "/images/d5.jpg",
@@ -76,7 +71,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "6",
       name: "GIORGIO ARMANI",
       category: "Сайхан үнэртэй ус",
       image: "/images/d6.jpg",
